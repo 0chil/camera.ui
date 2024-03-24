@@ -18,13 +18,14 @@ const languageList = {
   fr: 'French (fr)',
   th: 'Thai (th)',
   es: 'Spanish (es)',
+  ko: 'Korean (ko)'
 };
 
 /**
  * Update this array each time a new translation is added
  * It must be a valid language shortcut, please see languages.js for available shortcuts
  */
-const languages = ['de', 'nl', 'en', 'fr', 'th', 'es'];
+const languages = ['de', 'nl', 'en', 'fr', 'th', 'es', 'ko'];
 
 const supportedLanguages = (lang) => {
   if (!lang) {
